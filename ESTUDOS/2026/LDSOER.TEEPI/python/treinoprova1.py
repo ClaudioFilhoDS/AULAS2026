@@ -5,15 +5,15 @@ print("---Sistema de Cotação e Aprovação de Seguro Auto---\n")
 
 idade = int(input("\nQual a Idade do condutor ? \nDigite: "))
 acidentes = int(input("\nQuantos acidentes o condutor teve no ultimo ano w \nDigite: "))
-if acidentes < 4 and idade > 17:
+if acidentes < 3 and idade > 17:
     fipe = float(input("\nqual o valor do veiculo ?\nDigite: "))
     cnh = int(input("\nquantos anos voce tem a sua CNH ?\nDigite: "))
     carro = int(input("\nUso do Veículo (1 - Passeio, 2 - Aplicativo/Trabalho) ?\nDigite: "))
-    base_cotação = fipe * 1.05
-    if idade < 26 and cnh < 4:
+    base_cotação = fipe * 0.05
+    if idade < 25 and cnh < 3:
         taxa_jovem = base_cotação * 1.2
     
-    elif idade < 26 and cnh > 3:
+    elif idade < 25 and cnh >= 3:
         taxa_jovem = base_cotação * 1.1
 
     elif idade > 60:
