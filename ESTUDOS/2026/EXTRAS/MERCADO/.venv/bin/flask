@@ -1,0 +1,6 @@
+#!/home/dinho/Documentos/AULAS2026/ESTUDOS/2026/EXTRAS/MERCADO/.venv/bin/python
+import sys
+from flask.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
