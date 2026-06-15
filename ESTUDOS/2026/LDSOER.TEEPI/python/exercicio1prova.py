@@ -4,8 +4,9 @@ valor_total = 0
 critica = 0
 while loop:
     pergunta = 0
-    contador += 1
+    
     pergunta = float(input(f"qual a {contador} temperatura?"))
+    contador += 1
     if pergunta < 0:
         print("acabou a contagem")
         loop = False

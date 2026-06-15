@@ -29,7 +29,7 @@ elif reg2 > reg1 and reg2 > reg3:
     print(f"A regiao com mais votos e a 2 com  {reg2} votos")
 elif reg3 > reg1 and reg3 > reg2:
     print(f"A regiao com mais votos e a 3 com  {reg3} votos")
-
+else:
+    print(f" houve um empate.")
         
-
 
