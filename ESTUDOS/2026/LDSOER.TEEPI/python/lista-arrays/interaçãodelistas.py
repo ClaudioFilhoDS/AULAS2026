@@ -10,3 +10,6 @@ while x < len(l):
 for elemento in l:
     print(elemento)
     #o in tranforma o elemento e cada numero de l
+
+
+
